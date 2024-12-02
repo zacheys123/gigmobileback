@@ -1,0 +1,4 @@
+# ignore for gigthub
+node_modules
+env
+/env.local
