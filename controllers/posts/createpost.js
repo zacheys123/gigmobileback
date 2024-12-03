@@ -15,7 +15,6 @@ export const create = async (req, res) => {
     description: description,
     instrument: instrument,
     video: video,
-    postedBy: userId, // Assuming req.user contains the user's ID
   });
   res.status(201).json({ success: true, data: newpost });
 };
