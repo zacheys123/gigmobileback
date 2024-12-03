@@ -6,6 +6,6 @@ const Router = express.Router();
 
 // Route to fetch gigs from a third-party API
 Router.route("/").get(getposts);
-Router.route("/create").get(create);
+Router.route("/create").post(create);
 
 export default Router;
