@@ -9,7 +9,7 @@ export const create = async (req, res) => {
     video,
     userId, // Assuming req.user contains the user's ID
   } = req.body;
-  console.log(body);
+
   const newpost = await Post.create({
     title: title,
     description: description,
